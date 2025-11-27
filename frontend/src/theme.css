@@ -1,0 +1,52 @@
+:root {
+  /* Layout */
+  --sidebar-width: 260px;
+  --border-radius-lg: 24px;
+  --border-radius-md: 18px;
+  --border-radius-sm: 12px;
+
+  /* Colors – dark neon theme */
+  --bg-body: #050814;
+  --bg-elevated: #0c0f1c;
+  --bg-elevated-soft: #101426;
+  --bg-elevated-softer: #151a2e;
+
+  --border-subtle: rgba(255, 255, 255, 0.06);
+
+  --text-main: #f8fafc;
+  --text-muted: #9ca3af;
+  --text-soft: #6b7280;
+  --text-accent: #f9fafb;
+
+  --accent-primary: #f973ff;
+  --accent-primary-soft: rgba(249, 115, 255, 0.2);
+  --accent-secondary: #38bdf8;
+  --accent-warning: #fb923c;
+  --accent-success: #22c55e;
+  --accent-danger: #ef4444;
+
+  --chip-bg: rgba(15, 23, 42, 0.85);
+
+  --card-glass-bg: radial-gradient(circle at top left, #3b0764 0, #020617 45%, #000 100%);
+  --card-glass-overlay: rgba(15, 23, 42, 0.8);
+
+  --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.9);
+  --shadow-subtle: 0 12px 30px rgba(15, 23, 42, 0.7);
+
+  --input-bg: rgba(15, 23, 42, 0.9);
+  --input-border: rgba(148, 163, 184, 0.4);
+
+  /* Gradients used in charts / buttons */
+  --gradient-accent: linear-gradient(135deg, #f973ff, #38bdf8, #a855f7);
+  --gradient-card-main: radial-gradient(circle at 20% 0%, #f973ff 0%, #312e81 45%, #020617 100%);
+  --gradient-pill: linear-gradient(135deg, #f973ff, #fb923c);
+
+  /* Misc */
+  --scrollbar-track: rgba(15, 23, 42, 0.8);
+  --scrollbar-thumb: rgba(51, 65, 85, 0.8);
+}
+
+/* just in case you later support themes */
+[data-theme='dark'] {
+  color-scheme: dark;
+}
